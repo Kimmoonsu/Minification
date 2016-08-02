@@ -1,0 +1,287 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{font-size:12px; margin:0; padding:0;}
+ul li {list-style:none;}
+.btn {cursor:pointer;}
+.owl_wrap {background-color:#f9f9f9; min-width: 1100px; margin: 0 auto;}
+.owl_header, .owl_lnb, .owl_sort, .owl_product, .owl_main, .section, .owl_detail, .owl_detail_content {width:1100px; margin:0 auto;}
+.section {padding:80px 0 50px 0;text-align:center;}
+.owl_header {position:relative; height:110px;}
+.owl_header h1 {padding-top:22px; margin-left:20px; width:200px;}
+.owl_header .owl_search {position:absolute; top:20px; right:0;}
+.owl_header ul {position:absolute;}
+.owl_header ul li {float:left;}
+.owl_header ul.owl_menu {top:23px; right:180px; color:#999999;}
+.owl_header ul.owl_menu li {font-size:11px;}
+.owl_header ul.owl_menu li a {font-size:11px; text-decoration:none; color:#999;}
+.owl_header ul.owl_gnb_menu {top:67px; right:20px;}
+.owl_header ul.owl_gnb_menu li {margin-left:39px; color:#000; font-weight:bold; font-family:"Nanum Gothic";}
+.owl_header ul.owl_gnb_menu li a {color:#666666; font-size:14px;}
+.owl_header ul.owl_gnb_menu li a:link {text-decoration:none;}
+
+.owl_header ul.over_menu li {line-height:15px;}
+.owl_header ul.over_menu li a {text-decoration:none;}
+.owl_header ul.over_menu li.over {background-color:#000;}
+.owl_header ul.over_menu li.over a {color:#fff;}
+.owl_header ul.over_menu li.top a {font-size:14px;}
+.owl_header ul.owl_gnb_0 {z-index:99; position:absolute; border:1px solid #000; top:60px; left:830px; display:none;}
+.owl_header ul.owl_gnb_0 li {float:none; padding:8px; background-color:#fff; font-size:14px; font-family:"Nanum Gothic"; font-weight:bold;}
+
+.owl_header ul.owl_gnb_1 {z-index:99; position:absolute; border:1px solid #000; top:60px; left:900px; display:none;}
+.owl_header ul.owl_gnb_1 li {float:none; padding:8px; background-color:#fff; font-size:14px; font-family:"Nanum Gothic"; font-weight:bold;}
+
+.owl_header ul.owl_gnb_2 {z-index:99; position:absolute; border:1px solid #000; top:60px; left:970px; display:none;}
+.owl_header ul.owl_gnb_2 li {float:none; padding:8px; background-color:#fff; font-size:14px; font-family:"Nanum Gothic"; font-weight:bold;}
+
+.owl_header ul.owl_gnb_3 {z-index:99; position:absolute; border:1px solid #000; top:60px; left:1045px; display:none;}
+.owl_header ul.owl_gnb_3 li {float:none; padding:8px; background-color:#fff; font-size:14px; font-family:"Nanum Gothic"; font-weight:bold;}
+
+/*
+.owl_header ul.owl_gnb_2 {z-index:99; position:absolute; border:1px solid #000; top:90px; left:970px; display:none;}
+.owl_header ul.owl_gnb_2 li {float:none; padding:8px; background-color:#fff; font-size:14px; font-family:"Nanum Gothic"; font-weight:bold;}
+
+.owl_header ul.owl_gnb_3 {z-index:99; position:absolute; border:1px solid #000; top:90px; left:733px; display:none;}
+.owl_header ul.owl_gnb_3 li {float:none; padding:8px; background-color:#fff; font-size:14px; font-family:"Nanum Gothic"; font-weight:bold;}
+
+.owl_header ul.owl_gnb_4 {z-index:99; position:absolute; border:1px solid #000; top:90px; left:970px; display:none;}
+.owl_header ul.owl_gnb_4 li {float:none; padding:8px; background-color:#fff; font-size:14px; font-family:"Nanum Gothic"; font-weight:bold;}
+
+.owl_header ul.owl_gnb_5 {z-index:99; position:absolute; border:1px solid #000; top:90px; left:995px; display:none;}
+.owl_header ul.owl_gnb_5 li {float:none; padding:8px; background-color:#fff; font-size:14px; font-family:"Nanum Gothic"; font-weight:bold;}
+*/
+.owl_lnb {height:38px; border-top:2px solid #000; border-bottom:1px solid #d1d1d1; margin-bottom:10px;}
+.owl_lnb ul li {background:url(http://img.moongori.com/_image/owl/bar_lnb.gif) no-repeat 0 15px; float:left; padding:0 15px; height:38px; line-height:38px; color:#777777; font-size:14px; font-weight:bold; font-family:"Nanum Gothic";} 
+.owl_lnb ul li a {color:#777;}
+.owl_lnb ul li a:link {text-decoration:none;}
+.owl_lnb ul li.first {background:none;}
+.owl_lnb ul li.over a {color:#000;}
+
+.owl_sort {position:relative; height:66px;}
+.owl_sort ul {position:absolute; top:0; right:0;}
+.owl_sort ul li {float:left; background:url(http://img.moongori.com/_image/owl/bar_sort.gif) no-repeat 0 6px;}
+.owl_sort ul li.first {background:none;}
+.owl_sort .label {height:66px; line-height:66px; font-size:11px;}
+.owl_sort .label .location {color:#000; font-size:22px; font-family:"Nanum Gothic"; margin-right:20px;}
+.owl_sort ul.sort {margin-top:28px;}
+.owl_sort ul.sort li {padding:0 7px; color:#999999; font-size:11px; cursor:pointer;}
+.owl_sort ul.sort li.over {color:#000; font-weight:bold;}
+
+.owl_product {min-height:400px;}
+.owl_product ul li {float:left; width:330px; height:400px; margin-right:55px; margin-bottom:20px;}
+.owl_product ul li .product_image {position:relative; margin-bottom:5px;}
+.owl_product ul li .product_image .soldout {position:absolute; bottom:0; right:0;}
+.owl_product ul li .product_content p.name {height:48px;}
+.owl_product ul li .product_content p.price span.del {color:#999; font-size:11px; text-decoration:line-through;}
+.owl_product ul li .product_content p.price span.strong {color:#000; font-size:12px; font-weight:bold;}
+.owl_product ul li .product_content p.price span.sale {color:#dd0000; font-size:12px; font-weight:bold;}
+.owl_product ul li .product_content p.comment {color:#999; font-size:11px; line-height:15px; padding:5px 0; border-top:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; height:30px; overflow:auto;}
+.owl_product ul li .product_content p.buy {height:34px;}
+.owl_product ul li .product_content p.buy span {height:34px; line-height:34px;}
+.owl_product ul li .product_content p.buy .direct {color:#000; cursor:pointer;}
+.owl_product ul li .product_content p.buy .bar {color:#aaa;}
+.owl_product ul li .product_content p.buy .count {color:#666;}
+.owl_product ul li .product_content p.buy .wish {float:right; margin-top:10px; margin-right:5px; cursor:pointer;}
+.owl_product ul li.last {margin-right:0;}
+
+.owl_product:after {visibility: hidden; display: block; font-size: 0; content: "."; clear: both; height: 0;}
+.owl_product {display: inline-block;}
+* html .owl_product {height: 1%;}
+.owl_product {display: block;}
+
+.owl_product .loading_bar {text-align:center; height:200px;}
+.owl_product .loading_bar img {margin-top:30px;}
+
+.owl_detail .detail_wrap {background-color:#fff;}
+.owl_detail .detail_wrap .wrap_top {background-image:url(http://img.moongori.com/_image/owl/back_product_top.gif); height:30px;}
+.owl_detail .detail_wrap .wrap_bottom {background-image:url(http://img.moongori.com/_image/owl/back_product_bottom.gif); height:30px;}
+.owl_detail .detail_wrap .wrap_content {padding:0 30px; border-left:1px solid #f2f2f2; border-right:1px solid #f2f2f2;}
+
+.owl_detail_content .wrap_content {position:relative;}
+.owl_detail_content .wrap_content .qna_write {position:absolute; top:0; right:30px;}
+
+.owl_detail_content {padding:10px 0; vertical-align:top;}
+.owl_detail_content .detail_wrap {float:left; margin-right:20px; width:870px; background-color:#fff;}
+.owl_detail_content .detail_wrap .wrap_top {background-image:url(http://img.moongori.com/_image/owl/back_left_top.gif); height:30px;}
+.owl_detail_content .detail_wrap .wrap_bottom {background-image:url(http://img.moongori.com/_image/owl/back_left_bottom.gif); height:30px;}
+.owl_detail_content .detail_wrap .wrap_content {padding:0 30px; border-left:1px solid #f2f2f2; border-right:1px solid #f2f2f2;}
+.owl_detail_content .detail_wrap .wrap_content p.label_qna {margin:10px 0;}
+
+.owl_detail_content .detail_review_wrap {float:right; width:210px; background-color:#fff;}
+.owl_detail_content .detail_review_wrap .wrap_top {background-image:url(http://img.moongori.com/_image/owl/back_right_top.gif); height:15px;}
+.owl_detail_content .detail_review_wrap .wrap_bottom {background-image:url(http://img.moongori.com/_image/owl/back_right_bottom.gif); height:15px;}
+.owl_detail_content .detail_review_wrap .wrap_content {padding:0 10px; border-left:1px solid #f2f2f2; border-right:1px solid #f2f2f2;}
+.owl_detail_content .detail_review_wrap .wrap_content .review {position:relative; padding-top:10px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review p {font-size:11px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review p.title {color:#000; font-weight:bold; padding:0 8px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review p.title span.strong {color:#dd0000;}
+.owl_detail_content .detail_review_wrap .wrap_content .review p.nick {color:#97b9df; padding:0 8px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review p.star {padding:0 8px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review p.star img {margin-right:-3px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review img.write {position:absolute; top:15px; right:8px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review ul {margin-top:10px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review ul li {line-height:16px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review ul li p.title {line-height:14px; font-weight:normal; color:#666; margin-top:18px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review ul li p.content {line-height:13px; margin-top:5px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review ul li div.review_content_wrap p.title {margin:0; padding:10px 0 0 0; font-weight:bold; color:#000;}
+.owl_detail_content .detail_review_wrap .wrap_content .review .review_content_wrap {width:190px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review .review_content_wrap .wrap_top {position:relative; background-image:url(http://img.moongori.com/_image/owl/back_review_top.gif); height:20px;}
+.owl_detail_content .detail_review_wrap .wrap_content .review .review_content_wrap .wrap_top .review_del {position:absolute; top:10px; right:5px; display:none;}
+.owl_detail_content .detail_review_wrap .wrap_content .review .review_content_wrap .wrap_content {padding:0 20px; background-color:#ededed; border-left:1px solid #f2f2f2; border-right:1px solid #f2f2f2;}
+.owl_detail_content .detail_review_wrap .wrap_content .review .review_content_wrap .wrap_bottom {background-image:url(http://img.moongori.com/_image/owl/back_review_bottom.gif); height:15px;}
+
+.owl_detail_content .detail_review_wrap .wrap_content .btn_area {margin-top:20px; padding:0 10px;}
+.owl_detail_content .detail_review_wrap .wrap_content .btn_area span.now_page {font-weight:bold;}
+
+.owl_detail_content:after {visibility: hidden; display: block; font-size: 0; content: "."; clear: both; height: 0;}
+.owl_detail_content {display: inline-block;}
+* html .owl_detail_content {height: 1%;}
+.owl_detail_content {display: block;}
+
+.owl_detail_content #product_question {margin-top:20px;}
+.owl_detail_content #buy_information {margin:20px 0 40px 0;}
+
+.wrap_content .product {width:539px; float:left;}
+.wrap_content .product p.detail_image {border:1px solid #eeeeee;}
+.wrap_content .product p.detail_image img {cursor:pointer;}
+.wrap_content .product div.tip_info {position:relative; margin-top:22px; padding:23px 15px 15px 15px; background-color:#f5f5f5; color:#717984;}
+.wrap_content .product div.tip_info ul li {line-height:20px; font-size:11px;}
+.wrap_content .product div.tip_info .tip {position:absolute; top:-14px; left:12px;}
+.wrap_content .product_info {padding:0 11px 0 27px; width:330px; float:left;}
+.wrap_content .product_info dl {margin-top:12px;}
+.wrap_content .product_info dl dt {margin-bottom:10px; color:#000; font-size:15px; font-family:"Nanum Gothic";}
+.wrap_content .product_info dl dd {color:#888; line-height:24px;}
+.wrap_content .product_info dl dd img {vertical-align:middle;}
+.wrap_content .product_info dl dd span {display:inline-block; font-size:11px;}
+.wrap_content .product_info dl dd .one_count {width:20px; height:15px; margin:-2px; vertical-align:middle; text-align:right; padding-right:6px; font-size:11px;}
+.wrap_content .product_info dl dd span.four {width:50px; word-spacing:2px;}
+.wrap_content .product_info dl dd span.three {width:50px; word-spacing:2px;}
+.wrap_content .product_info dl dd span.two {width:50px; word-spacing:20px;}
+.wrap_content .product_info dl dd span.del {color:#999; font-size:11px; text-decoration:line-through;}
+.wrap_content .product_info dl dd span.price {color:#000; font-size:11px; font-weight:bold;}
+.wrap_content .product_info dl dd span.sale {color:#dd0000; font-weight:bold;}
+.wrap_content .product_info dl dd span.delivery {color:#dd0000;}
+.wrap_content .product_info div.option {padding:10px; margin-top:10px; border:1px solid #ccc; background-color:#f3f3f3;}
+.wrap_content .product_info div.option p.title {margin-left:5px; font-size:11px;}
+.wrap_content .product_info div.option div.select {position:relative; margin-top:3px; padding-left:5px; line-height:25px; background-image:url(http://img.moongori.com/_image/owl/select_out.gif); width:302px; height:25px;}
+.wrap_content .product_info div.option div.select_over {background-image:url(http://img.moongori.com/_image/owl/select_over.gif);}
+.wrap_content .product_info div.option div.select div.select_over_list {position:absolute; display:none; top:24px; left:0; background-color:#fff; width:305px; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; z-index:1000;}
+.wrap_content .product_info div.option div.select div.select_over_list ul {}
+.wrap_content .product_info div.option div.select div.select_over_list ul li {padding-left:5px; line-height:25px;}
+.wrap_content .product_info table {margin-top:5px; width:330px; border:1px solid #dddddd;}
+.wrap_content .product_info table tr th {color:#666; text-align:left; padding-left:12px; font-size:11px; background:url(http://img.moongori.com/_image/owl/ico_plus.gif) no-repeat 15px 15px; font-weight:normal;}
+.wrap_content .product_info table tr td {padding:8px 0; font-size:11px;}
+.wrap_content .product_info table tr td img {vertical-align:middle;}
+.wrap_content .product_info table tr td .multi_count {width:13px; height:15px; margin:-2px; vertical-align:middle; text-align:right; padding-right:6px; font-size:11px;}
+.wrap_content .product_info table tr td.option_price {color:#000;}
+.wrap_content .product_info table tr td.del {color:#aaa;}
+.wrap_content .product_info select.option {width:307px; height:25px;}
+.wrap_content .product_info .btn_area ul {margin-top:5px;}
+.wrap_content .product_info .btn_area ul li {float:left; margin-right:10px;}
+.wrap_content .product_info .btn_area ul li.last {margin-right:0;}
+.wrap_content .product_info .owl_total_price {color:#000; text-align:right; padding-right:5px; font-size:14px; height:41px; line-height:41px;}
+.wrap_content .product_info .owl_total_price .price_area {color:#dd0000; font-weight:bold;}
+.wrap_content .product_info .naver_checkout {margin-top:10px;}
+.wrap_content .product_info .multi_total {}
+
+.wrap_content .product_add_info {width:120px; float:left;}
+.wrap_content .product_add_info p.order_count {text-align:center; padding-top:22px; margin-top:-15px; height:47px; background:url(http://img.moongori.com/_image/owl/back_order_count.gif) no-repeat 34px 12px; color:#dd0000; font-size:11px;}
+.wrap_content .product_add_info div.gray_wrap {width:120px;}
+.wrap_content .product_add_info div.gray_wrap .gray_top {background-image:url(http://img.moongori.com/_image/owl/back_etc_gray_top.gif); height:5px;}
+.wrap_content .product_add_info div.gray_wrap .gray_content {padding:2px 0; background-color:#fbfbfb; border-left:1px solid #eeeeee; border-right:1px solid #eeeeee;}
+.wrap_content .product_add_info div.gray_wrap .gray_content ul {margin-left:10px;}
+.wrap_content .product_add_info div.gray_wrap .gray_content ul li {color:#666; font-size:11px; line-height:16px;}
+.wrap_content .product_add_info div.gray_wrap .gray_content ul li.subject {color:#000;}
+.wrap_content .product_add_info div.gray_wrap .gray_content ul li.subject .count {font-weight:bold; color:#666;}
+.wrap_content .product_add_info div.gray_wrap .gray_content ul li.btn_area .bar {color:#bbb;}
+.wrap_content .product_add_info div.gray_wrap .gray_content ul.qna {margin-top:10px;}
+.wrap_content .product_add_info div.gray_wrap .gray_bottom {background-image:url(http://img.moongori.com/_image/owl/back_etc_gray_bottom.gif); height:5px;}
+.wrap_content .product_add_info div.white_wrap {width:120px; margin-top:5px;}
+.wrap_content .product_add_info div.white_wrap .white_top {background-image:url(http://img.moongori.com/_image/owl/back_etc_white_top.gif); height:5px;}
+.wrap_content .product_add_info div.white_wrap .white_content {padding:2px 0; border-left:1px solid #eeeeee; border-right:1px solid #eeeeee;}
+.wrap_content .product_add_info div.white_wrap .white_content ul {margin-left:10px; }
+.wrap_content .product_add_info div.white_wrap .white_content ul li {font-size:11px; color:#666; line-height:23px;}
+.wrap_content .product_add_info div.white_wrap .white_bottom {background-image:url(http://img.moongori.com/_image/owl/back_etc_white_bottom.gif); height:5px;}
+.wrap_content .product_add_info ul.community {margin-left:8px; margin-top:5px;}
+.wrap_content .product_add_info ul.community li {float:left; margin-right:7px;}
+
+.wrap_content:after {visibility: hidden; display: block; font-size: 0; content: "."; clear: both; height: 0;}
+.wrap_content {display: inline-block;}
+* html .wrap_content {height: 1%;}
+.wrap_content {display: block;}
+
+.wrap_content ul.tab_menu {margin-left:-9px; width:100%; height:35px;}
+.wrap_content ul.tab_menu li {float:left; padding:0 9px; background:url(http://img.moongori.com/_image/owl/bar_tab.gif) no-repeat 0 5px;}
+.wrap_content ul.tab_menu li.first {background:none;}
+.wrap_content ul.tab_menu li.over {font-weight:bold; color:#000;}
+.wrap_content ul.tab_menu li span.strong {font-weight:bold; color:#dd0000;}
+
+.wrap_content table.product_information {margin-bottom:20px; width:798px; border-top:1px solid #e2e9ea; border-left:1px solid #e2e9ea; border-right:1px solid #e2e9ea; background-color:#f9f9f9;}
+.wrap_content table.product_information tr {border-bottom:1px solid #e2e9ea;}
+.wrap_content table.product_information tr th, .wrap_content table.product_information tr td {font-size:11px; color:#888888; height:25px;}
+.wrap_content table.product_information tr th {font-weight:normal; padding-left:2px;}
+.wrap_content table.product_information tr th.two {word-spacing:38px;}
+.wrap_content table.product_information tr th.three {word-spacing:12px;}
+.wrap_content table.product_information tr td {text-align:left; line-height:15px;}
+.wrap_content table.product_information tr td.detail_content {padding:3px 10px 1px 15px;}
+
+.wrap_content dl.information {}
+.wrap_content dl.information dt {margin-bottom:25px;}
+.wrap_content dl.information dt.return {margin-top:40px;}
+.wrap_content dl.information dd {padding-left:38px;}
+.wrap_content dl.information dd ul li {padding-left:9px; background:url(http://img.moongori.com/_image/owl/hor_bar.gif) no-repeat 0 11px; line-height:23px;}
+.wrap_content dl.information dd ol {margin-left:13px;}
+.wrap_content dl.information dd ol li {list-style:decimal; line-height:23px;}
+.wrap_content dl.information dd ol li .strong {color:#dd0000;}
+.wrap_content dl.information p.title {color:#dd0000; font-weight:bold; margin-top:37px;}
+.wrap_content dl.information .delivery_01 {margin-left:45px;}
+.wrap_content dl.information .delivery_02 {margin-left:28px; margin-bottom:10px;}
+.wrap_content dl.information .delivery_03 {margin-left:75px; margin-top:50px;}
+
+.wrap_content div.board {border-top:1px solid #000;}
+.wrap_content div.board div.row {height:25px;}
+.wrap_content div.board div.row ul li {float:left; line-height:30px; border-bottom:1px solid #eee; color:#666; font-size:11px;}
+.wrap_content div.board div.row ul li.num {width:50px; text-align:center;}
+.wrap_content div.board div.row ul li.state {width:80px; text-align:center;}
+.wrap_content div.board div.row ul li.no_reply {color:#dd0000;}
+.wrap_content div.board div.row ul li.title {width:538px; text-align:left;}
+.wrap_content div.board div.row ul li.title img {vertical-align:middle;}
+.wrap_content div.board div.row ul li.nickname {width:60px; text-align:center;}
+.wrap_content div.board div.row ul li.date {width:80px; text-align:center;}
+
+.wrap_content div.board div.row table tr td {color:#666;}
+
+.wrap_content div.board div.row table.question {float:left; border:0px; width:100%; background-color:#fff;}
+.wrap_content div.board div.row table.question tr th, .wrap_content div.board div.row table.question tr td {padding:10px 0;}
+.wrap_content div.board div.row table.question tr {border-bottom:0px;}
+.wrap_content div.board div.row table.question tr td.line, .wrap_content div.board div.row table.question tr th.line {border-bottom:1px solid #d8d8d8;}
+.wrap_content div.board div.row table.question tr td.manage {text-align:right; vertical-align:bottom;}
+
+.wrap_content div.board div.row table.reply {float:left; border:0px; width:100%; background-color:#fff; border-bottom:1px solid #eee;}
+.wrap_content div.board div.row table.reply tr th, .wrap_content div.board div.row table.reply tr td {padding:10px 0;}
+.wrap_content div.board div.row table.reply tr {border-bottom:0px;}
+.wrap_content div.board div.row table.reply tr th img {margin:10px 0;}
+
+.wrap_content div.board div.row table tr td.content {padding-left:15px; text-align:left;}
+
+div.paging {}
+div.paging img {margin-top:-3px; margin-right:4px;}
+div.paging span {vertical-align:baseline; font-weight:bold; display:inline-block; border-right:1px solid #ccc; padding:0 10px 5px 8px; height:14px; padding-bottom:2px; cursor:pointer;}
+div.paging span.last {border-right:0px;}
+div.paging span.selected {color:#717eed;}
+
+.owl_product div.paging {margin-bottom:50px;}
+
+.owl_detail_content #product_question div.paging span {margin-left:-4px;}
+div.product_no {padding:100px; text-align:center;}
+
+#prdDetail table tr td {text-align:left !important;}
+
+.owl_main_rolling_wrap {position:relative; width:1100px; height:418px; margin:0 auto; overflow:hidden;}
+.owl_main_rolling_wrap .owl_main_rolling {position:absolute; width:5500px; height:418px;}
+.owl_main_rolling_wrap .banner {float:left; width:1100px; height:418px;}
+
+.owl_main_rolling_wrap .control {position:absolute; top:185px;}
+.owl_main_rolling_wrap .control_prev {left:18px;}
+.owl_main_rolling_wrap .control_next {right:18px;}
+.owl_main_rolling_wrap .control_total {position:absolute; bottom:0; left:510px;}
+.owl_main_rolling_wrap .control_total img {padding:0 2px;}
